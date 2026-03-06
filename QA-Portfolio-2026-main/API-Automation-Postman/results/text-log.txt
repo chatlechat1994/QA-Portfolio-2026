@@ -1,0 +1,30 @@
+newman
+
+Restful-Booker API Testing
+
+GET https://restful-booker.herokuapp.com/booking/ [200 OK, 68.14kB, 1184ms]
+✓  Status code is 200
+
+POST https://restful-booker.herokuapp.com/booking [200 OK, 954B, 130ms]
+✓  Saved new ID
+
+GET https://restful-booker.herokuapp.com/booking/5230 [200 OK, 925B, 171ms]
+✓  Status code is 200
+✓  FirstName should be Tester
+
+POST https://restful-booker.herokuapp.com/auth [200 OK, 766B, 140ms]
+
+------------------------------------------------------------------
+|                  |         executed |            failed |
+--------------------------+------------------+--------------------
+| iterations       |                1 |                 0 |
+--------------------------+------------------+--------------------
+| requests         |                4 |                 0 |
+--------------------------+------------------+--------------------
+| test-scripts     |                4 |                 0 |
+--------------------------+------------------+--------------------
+| prerequest-scripts|                0 |                 0 |
+--------------------------+------------------+--------------------
+| assertions       |                3 |                 0 |
+------------------------------------------------------------------
+total run duration: 1996ms

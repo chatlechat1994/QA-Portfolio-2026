@@ -1,0 +1,32 @@
+# --- QA Portfolio Exclusions ---
+
+# Python & Pytest Junk
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.pytest/
+test-results/
+
+# Node.js / Playwright Junk (This was the missing piece!)
+node_modules/
+.auth/
+playwright-report/
+blob-report/
+test-results/
+.last-run
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Reports & Logs
+*.html
+*.log
